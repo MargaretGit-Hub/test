@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark header */
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #FFA500; /* Orange accent */
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .card {
+        margin: 10px;
+    }
+}
